@@ -168,7 +168,7 @@ section .title {
   justify-content: flex-start;
   left:0;
   background-color: rgb(220, 20, 60);
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .mobile-menu {
@@ -176,7 +176,7 @@ section .title {
   position: absolute;
   top: 10px;
   left: 30px;
-  height: calc(30vh - 20px);
+  height: 50%;
   width: 100%;
 }
 
