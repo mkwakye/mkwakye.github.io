@@ -28,8 +28,17 @@
     height: 200px;
 }
 
-h1, h2, h3, h4, h5, h6, a, span {
+h1, h2, h3, h4, h5, h6, a {
     color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 2vh;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 0.3vh.5;
+    margin: 0 0 1em 0;
+}
+
+span {
+    color: rgb(0, 0, 0);
     font-weight: 400;
     font-size: 2vh;
     font-family: 'Montserrat', sans-serif;
@@ -562,6 +571,14 @@ button.style3:active,
     margin: 0 0 4vh 0;
     padding: 0;
     text-align: center;
+}
+
+#footer span {
+    color: rgb(255, 255, 255);
+}
+
+#footer a {
+    color: rgb(255, 255, 255);
 }
 
 /* ----------------------------MEDIA---------------------------- */
