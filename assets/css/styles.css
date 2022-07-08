@@ -1,7 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
     font-size: 2vh;
     box-sizing: border-box;
 }
@@ -31,14 +31,14 @@
 h1, h2, h3, h4, h5, h6 {
     color: rgb(255, 255, 255);
     font-weight: 400;
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
     line-height: 0.3vh.5;
     margin: 0 0 1em 0;
 }
 
 p {
     font-size: 2vh;
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
 }
 
 p.indent {
@@ -47,7 +47,7 @@ p.indent {
 
 .title {
     font-size: 8vw;
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
     line-height: 8vh;
     width: auto;
     padding: 4vh 3vh;
@@ -57,7 +57,7 @@ p.indent {
 
 section .title {
     font-size: 15vw;
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
     line-height: 8vh;
     width: auto;
     padding: 3vh 2vh;
@@ -67,13 +67,13 @@ section .title {
 
 .header {
     font-size: 2vh;
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
     padding: 2vh 3vh;
 }
 
 .content {
     font-size: 3vh;
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
     padding: 1vh 3vh;
 }
 
@@ -221,7 +221,7 @@ details summary {
 	outline: none;
 	cursor: pointer;
 	font-size: 3vh;
-    font-family: "Montserrat";
+    font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	line-height: 0.3vh.2;
 	border-bottom: 1px solid #000;
@@ -569,7 +569,7 @@ button.style3:active,
     * {
         margin: 0%;
         padding: 0%;
-        font-family: "Montserrat";
+        font-family: 'Montserrat', sans-serif;
         font-size: 2vh;
         box-sizing: border-box;
     }
@@ -632,7 +632,7 @@ button.style3:active,
     * {
         margin: 0%;
         padding: 0%;
-        font-family: "Montserrat";
+        font-family: 'Montserrat', sans-serif;
         font-size: 3vh;
         box-sizing: border-box;
     }
@@ -744,7 +744,7 @@ button.style3:active,
     * {
         margin: 0%;
         padding: 0%;
-        font-family: "Montserrat";
+        font-family: 'Montserrat', sans-serif;
         font-size: 1.5vh;
         box-sizing: border-box;
     }
