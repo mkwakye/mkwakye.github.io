@@ -28,9 +28,10 @@
     height: 200px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, a, span {
     color: rgb(255, 255, 255);
     font-weight: 400;
+    font-size: 2vh;
     font-family: 'Montserrat', sans-serif;
     line-height: 0.3vh.5;
     margin: 0 0 1em 0;
@@ -47,6 +48,7 @@ p.indent {
 
 .title {
     font-size: 8vw;
+    font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     line-height: 8vh;
     width: auto;
@@ -57,6 +59,7 @@ p.indent {
 
 section .title {
     font-size: 15vw;
+    font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     line-height: 8vh;
     width: auto;
@@ -576,6 +579,7 @@ button.style3:active,
 
     .title {
         font-size: 5vh;
+        font-weight: bold;
         line-height: 5vh;
         width: auto;
         padding: 5vh 4vh;
@@ -591,6 +595,7 @@ button.style3:active,
 
     .title {
         font-size: 5vh;
+        font-weight: bold;
         line-height: 5vh;
         width: auto;
         padding: 5vh 4vh;
@@ -639,6 +644,7 @@ button.style3:active,
 
     .title {
         font-size: 5vh;
+        font-weight: bold;
         line-height: 5vh;
         width: auto;
         padding: 5vh 4vh;
@@ -668,6 +674,7 @@ button.style3:active,
 
     .title {
         font-size: 5vh;
+        font-weight: bold;
         line-height: 5vh;
         width: auto;
         padding: 5vh 4vh;
@@ -731,6 +738,7 @@ button.style3:active,
 
     .title {
         font-size: 5vh;
+        font-weight: bold;
         line-height: 5vh;
         width: auto;
         padding: 5vh 4vh;
