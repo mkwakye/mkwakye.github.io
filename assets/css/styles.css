@@ -181,6 +181,9 @@ section .title {
   top:0;
   left:0;
   background-color: rgb(220, 20, 60);
+  font-weight: bold;
+  color: white;
+  opacity: 0.95;
 }
 
 .mobile-menu {
@@ -188,7 +191,7 @@ section .title {
   position: absolute;
   top: 10px;
   left: 30px;
-  height: 50%;
+  height: 65%;
   width: 100%;
 }
 
