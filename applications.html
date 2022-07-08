@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Applications - CSSF, Inc</title>
+        <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" type ="text/css" href="./assets/css/styles.css"/>
+    </head>
+    <body>
+        <div class = "banner">
+            <div class = "navbar">
+                <img src = "./assets/img/caribbean.jpg" class = "logo">
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "about.html">About</a></li>
+                    <li><a href = "scholarships.html">Scholarships</a></li>
+                    <li><a class = "active" href = "#">Applications</a></li>
+                    <li><a href = "awardees.html">Recent Awardees</a></li>
+                </ul>
+                <div id="menu-icon" onclick="toggleMobileMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                    <ul class="mobile-menu">
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "about.html">About</a></li>
+                        <li><a href = "scholarships.html">Scholarships</a></li>
+                        <li><a class = "active" href = "applications.html">Applications</a></li>
+                        <li><a href = "awardees.html">Recent Awardees</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class = "title relative flex items-center justify-center">
+            APPLICATIONS
+        </div>
+        <div class = "content">
+            <details class="scholarshipinfo">
+                <summary>WHO MAY APPLY</summary>
+                <div>
+                    <p>
+                        Current high school seniors and full-time undergraduate and graduate college students.
+                    </p>
+                </div>
+            </details>
+            <details class="scholarshipinfo">
+                <summary>HOW TO APPLY</summary>
+                <div>
+                    Complete the application form and return the application along with the required documentation to: <br>
+                </div>
+                <div class = "font-bold">
+                    Caribbean Students Scholarship Fund, Inc. <br>
+                    PO Box 1229 <br>
+                    Landover, MD 20785-1229 <br>
+                    Attn: Scholarship Application <br>
+                </div>
+            </details>
+            <div class = "header">
+                <h1 class = " font-bold text-red-600 relative flex items-center justify-center">ELIGIBILITY REQUIREMENTS</h1>
+                <ul class = "italic">
+                    <li>Be of Caribbean heritage.</li>
+                    <li>US Citizen or Legal Permanent Resident</li>
+                    <li>Reside in the <span class = "font-bold text-red-600">Washington Metropolitan area</span> (Maryland, Virginia and the District of Columbia).</li>
+                    <li>Posses <span class = "font-bold text-red-600">at least a 2.5 cumulative grade point average</span> on a 4.0 scale.</li>
+                    <li>Demonstrate financial need (students must apply for federal financial aid using FAFSA).</li>
+                    <li>Not a previous recipient. </li>
+                </ul>
+            </div>
+        </div>
+        <div class = "header">
+            <p>Scholarship recipients will be selected by the Caribbean Students Scholarship Fund, Inc., 
+               Advisory Board based on the above criteria. Candidates must avail themselves to a face-to-face 
+               interview with the Board.</p>
+            <br>
+            <p>All applicants will be notified in writing 
+               <span class = "italic text-blue-600">approximately four (4) weeks after the submission deadline</span>.</p>
+            <br>
+            <p>Awardees are required to attend the Awards Banquet and must avail themselves to support activities 
+               that benefit the Scholarship Fund.</p>
+            <br>
+            <p>
+                <span class = "underline"><a href = "./assets/files/2015 Application.pdf">Download Application (2015)</a></span> 
+                or <span class = "underline">Apply Online Today</span>
+            </p>
+        </div>
+        <footer id="footer">
+            <div class="inner">
+                <p class="copyright" style="text-align:center;text-align:center">
+                    <a href="./index.html"><span style="text-decoration:underline">Home</span></a>
+                    <span style="language:en-US"> | </span>
+                    <a href="./about.html"><span style="text-decoration:underline">About CSSF, Inc</span></a>
+                    <span style="language:en-US"> | </span>
+                    <a href="./scholarships.html"><span style="text-decoration:underline">Scholarships</span></a>
+                    <span style="language:en-US"> | </span>
+                    <a href="./applications.html"><span style="text-decoration:underline">Applications</span></a>
+                    <span style="language:en-US"> | </span>
+                    <a href="./awardees.html"><span style="text-decoration:underline">Awardees</span></a>
+                </p>
+                <p class="copyright">© 2007-2015 Caribbean Students Scholarship Fund, Inc. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>. Videos: <a href="http://coverr.co/">Coverr</a>.</p>
+            </div>
+        </footer>
+        <script src = "./assets/js/website.js"></script>
+    </body>
+</html>

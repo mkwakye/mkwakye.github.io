@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home - CSSF, Inc</title>
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" type ="text/css" href="./assets/css/styles.css"/>
+    </head>
+    <body>
+        <div class = "banner">
+            <div class = "navbar">
+                <img src = "./assets/img/caribbean.jpg" class = "logo">
+                <ul>
+                    <li><a class = "active" href = "#">Home</a></li>
+                    <li><a href = "about.html">About</a></li>
+                    <li><a href = "scholarships.html">Scholarships</a></li>
+                    <li><a href = "applications.html">Applications</a></li>
+                    <li><a href = "awardees.html">Recent Awardees</a></li>
+                </ul>
+                <div id="menu-icon" onclick="toggleMobileMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                    <ul class="mobile-menu">
+                        <li><a class = "active" href = "index.html">Home</a></li>
+                        <li><a href = "about.html">About</a></li>
+                        <li><a href = "scholarships.html">Scholarships</a></li>
+                        <li><a href = "applications.html">Applications</a></li>
+                        <li><a href = "awardees.html">Recent Awardees</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class = "title relative flex items-center justify-center">
+            CARRIBEAN STUDENTS SCHOLARSHIP FUND, INC
+        </div>
+        <div class="carousel"
+            data-flickity='{ "imagesLoaded": true, "percentPosition": false, 
+            "wrapAround": true, "autoPlay": 6000 }'>
+            <img src="./assets/img/IMG-2934.jpg" alt="first"/>
+            <img src="./assets/img/IMG-2948.jpg" alt="second"/>
+            <img src="./assets/img/IMG-2932.jpg" alt="third"/>
+            <img src="./assets/img/IMG-2953.jpg" alt="fourth"/>
+            <img src="./assets/img/IMG-2952.jpg" alt="fifth"/>
+            <img src="./assets/img/IMG-2945.jpg" alt="sixth"/>
+        </div>
+        <div class = "header relative flex items-center justify-center">
+            OFFERING SCHOLARSHIPS TO PROMISING HIGH SCHOOL GRADUATES AND/OR RETURNING UNDERGRADUATE STUDENTS OF CARIBBEAN HERITAGE
+        </div>
+        <div class="min-h-fit bg-red-600 py-6 flex flex-col justify-center sm:py-12">
+            <div class="grid sm:grid-cols-2 gap-4">
+                <div class="border-b sm:border-b-0 sm:border-r p-12 relative">
+                <h1 class="font-bold text-blue-200 ">OUR MISSION</h1>
+                <p class=" font-bold text-white pt-4 pb-4">
+                    The Caribbean Students Scholarship Fund, Inc. (CSSF, Inc.) is designed to establish and maintain a fellowship 
+                    rooted in traditional and historical Caribbean principles of using one's skills in service to the community.
+                    Students interested in obtaining a scholarship must be of Caribbean descent and reside in the Washington 
+                    metropolitan area (Maryland, Virginia and the District of Columbia).
+                </p>
+                <button class="button bg-yellow-400 text-black font-bold py-2 px-4"><a href="about.html">LEARN MORE</a></button>
+                </div>
+                <div class="p-12 relative">
+                <h1 class="font-bold text-blue-200 ">TO CONTACT US</h1>
+                <p class=" font-bold text-white pt-4 pb-4">
+                    Caribbean Students Scholarship Fund, Inc.<br>
+                    PO Box 1229<br>
+                    Landover, MD 20785<br>
+                    E-mail: cssfinc1@cssfinc.org
+                </p>
+                <button class="button bg-yellow-400 text-black font-bold py-2 px-4"><a href="mailto:cssfinc1@cssfinc.org">EMAIL US</a></button>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class = "title relative flex items-center justify-center">
+                NEWS
+            </div>
+            <div id="main">
+                <div class="inner">
+                    <div class="thumbnails">
+                        <div class="box">
+                            <div class="image fit">
+                                <iframe src="https://www.youtube.com/embed/O2lEN93khhI" title="The 2021 Carah Awards Show" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="inner">
+                                <h3 class = "font-bold">The 2021 Carah Awards Show (2021)</h3>
+                                <p>A COVID-19 research scientist, an AI inventor, a sculptor, and a Grammy winning songwriter are among the individuals that will be honored
+                                   by the Institute of Caribbean Studies (ICS) at the 28th Annual Caribbean American Heritage (CARAH) Awards Gala.</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="image fit">
+                                <iframe src="https://www.youtube.com/embed/3qnVK5QHx5U" title="Caribbean Students' Scholarship Fund Awards Banquet 2017" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="inner">
+                                <h3 class = "font-bold">Caribbean Students' Scholarship Fund Awards Banquet (2017)</h3>
+                                <p>The Caribbean Students Scholarship Fund, Inc. (CSSF, Inc.) is 
+                                   designed to establish and maintain a fellowship rooted in traditional and historical Caribbean principles of using one's skills in service to the community.</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="image fit">
+                                <iframe src="https://www.youtube.com/embed/Deca1WvmmgU" title="Caribbean American Helping the Caribbean" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="inner">
+                                <h3 class = "font-bold">Caribbean American Helping the Caribbean (2017)</h3>
+                                <p>Many US-Based Organizations have devoted their energy to passionately advocating for the improvement of hungry, needy and politically 
+                                    under-represented members of our global family.</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <a href="http://www.wiamma.org/index.html" class="image fit"><img src="./assets/img/WIAMMA.jpg" alt="" /></a>
+                            <div class="inner">
+                                <h3 class = "font-bold">West Indian American Military Member Association (WIAMMA)</h3>
+                                <p>The purpose of WIAMMA is to promote awareness about the cultures and histories of West-Indian people; educate the 
+                                    general public about contributions West Indian-Americans continue to make to the United States Military.</p>
+                                <a href="http://www.wiamma.org/index.html" class="button style2 fit">Visit Website</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <a href="./assets/files/CSSF 2014 Program.pdf" class="image fit"><img src="./assets/img/ArticleDefaultThumbnail.jpg" alt=""/></a>
+                            <div class="inner">
+                                <h3 class = "font-bold">CSSF Program (2014)</h3>
+                                <p>Carribean Students' Scholarship Fund 11th Annual Awards Banquet Program from May 3rd, 2014.</p>
+                                <a href="./assets/files/CSSF 2014 Program.pdf" class="button style3 fit">Event Program</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <a href="https://thecaribbeannewsnow.com/" class="image fit"><img src="./assets/img/Carribean Island.jpg" alt="" /></a>
+                            <div class="inner">
+                                <h3 class = "font-bold">Carribean News Now!</h3>
+                                <p>Source for news and events occuring across the Carribean. Stay up to date with the latest collaborative
+                                    efforts, current affairs, politics and information surrounding various regions and communities.
+                                </p>
+                                <a href="https://thecaribbeannewsnow.com/" class="button fit">Visit Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="inner">
+                <p class="copyright" style="text-align:center;text-align:center">
+                    <a href="./index.html"><span style="text-decoration:underline">Home</span></a>
+                    <span style="language:en-US"> | </span>
+                    <a href="./about.html"><span style="text-decoration:underline">About CSSF, Inc</span></a>
+                    <span style="language:en-US"> | </span>
+                    <a href="./scholarships.html"><span style="text-decoration:underline">Scholarships</span></a>
+                    <span style="language:en-US"> | </span>
+                    <a href="./applications.html"><span style="text-decoration:underline">Applications</span></a>
+                    <span style="language:en-US"> | </span>
+                    <a href="./awardees.html"><span style="text-decoration:underline">Awardees</span></a>
+                </p>
+                <p class="copyright">© 2007-2015 Caribbean Students Scholarship Fund, Inc. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>. Videos: <a href="http://coverr.co/">Coverr</a>.</p>
+            </div>
+        </footer>
+        <script src = "./assets/js/website.js"></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    </body>
+</html>
