@@ -427,8 +427,8 @@ button,
     cursor: pointer;
     display: inline-block;
     font-weight: 400;
-    height: 2.85em;
-    line-height: 2.95em;
+    height: 2em;
+    line-height: 2em;
     padding: 0 1.5em;
     text-align: center;
     text-decoration: none;
